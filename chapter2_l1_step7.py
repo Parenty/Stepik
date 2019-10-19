@@ -16,6 +16,7 @@ try:
 
     chest = browser.find_element_by_css_selector("#treasure")
     x=chest.get_attribute("valuex")
+    print(x)
     y = calc(x)
 
     answ = browser.find_element_by_css_selector("#answer")
